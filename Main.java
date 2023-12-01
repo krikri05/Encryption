@@ -4,7 +4,7 @@ class Main {
 
  Matrice m = new Matrice("verme");
  Vigenere v = new Vigenere(0, 12, 0, 12,m);
-    Thread t = new Thread(v);
+    Thread t = new Thread(v); //saas
     Vigenere v1 = new Vigenere(13,25,13,25,m);
     Thread t1 = new Thread(v1);
     t.start();
